@@ -1,0 +1,215 @@
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15fr 1fr;
+}
+.thing{
+    display: grid;
+    background-color: #B2E3FF;
+    grid-gap: 5px;
+    grid-template-columns: 2fr 2fr 4fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+
+}
+.bio1{
+    grid-column: 3 / 4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio2{
+    grid-column: 3 / 4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio3{
+    grid-column: 3 / 4;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio4{
+    grid-column: 3 / 4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio5{
+    grid-column: 3 / 4;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio6{
+    grid-column: 3 / 4;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(one.jpg);
+    height:300px;
+    width: 200px;
+}
+.image2{
+    grid-column: 2 / 3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(two.jpg);
+    height:300px;
+    width: 200px;
+}
+.image3{
+    grid-column: 2 / 3;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(three.jpg);
+    height:300px;
+    width: 200px;
+}
+.image4{
+    grid-column: 2 / 3;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(four.jpeg);
+    height:300px;
+    width: 200px;
+}
+.image5{
+    grid-column: 2 / 3;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(five.jpeg);
+    height:300px;
+    width: 200px;
+}
+.image6{
+    grid-column: 2 / 3;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    background-image: url(six.jpeg);
+    height:300px;
+    width: 200px;
+}
+iframe{
+    display: block;
+    height: 40vh;
+    width:60vw;
+    margin: 0 auto;
+}
+.picture{
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(big.png);
+    margin-bottom: 3%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.application{
+    background-color: #D9D9D9;
+    text-align: center;
+    margin-top: 10px;
+}
+.homepicture{
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(home.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+}
+.mission{
+    text-align: center;
+    display: flex;
+    font-size: 150%;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {background-color: white;
+    }
+
+h1{ text-align: center;
+}
+
+.faq-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-header {
+    text-align: center;
+    font-family: 'Montserrat';
+    padding: 3%;
+    background-image: url("faq-image.jpg");
+    margin-bottom: 20px;
+}
+
+.faq-question-container {
+    text-align: center;
+    background-color: #B2E3FF;
+    font-family: 'League Spartan';
+}
+
+.faq-answer-container {
+    text-align: center;
+    font-family: 'League Spartan';
+    margin-top: 6px;
+}
+footer{
+    display: flex;
+    background-color: #83A0B0;
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 115px;
+}
+main{
+    font-family: 'Montserrat';
+}
+.box{
+    background-color: black;
+}
