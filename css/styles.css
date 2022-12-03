@@ -229,6 +229,77 @@ nav-item:hover {
     background-color: #83A0B0;
     border-color: #83A0B0;
 }
+.image-header {
+    display: flex;
+    height: 30vh;
+    margin-top: 0;
+    justify-content: flex-end;
+    padding-right: 5vw;
+}
+
+.background-image-contact {
+    background-color: blue;
+    background-image: url("../img/Step-Contact-Header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54vh;
+    width: 20vw;
+}
+
+fieldset {
+    background-color: black;
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove;
+  }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.center-resource {
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.contact-grid-container {
+    width: 500px;
+    padding: 1rem;
+
+}
+
+.resource-contact {
+    background: #83a0b0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+.navigation {
+    justify-content: space-around;
+}
+}
+      
+@media screen and (max-width: 500px) {
+.navigation {
+    flex-flow: column wrap;
+    padding: 0;
+}
+}
 
 .image-header {
     display: flex;
@@ -302,3 +373,13 @@ input[type=text] {
     padding: 0;
 }
 }
+footer{
+    display: flex;
+    background-color: #83A0B0;
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 115px;
+}
+body{ font-family: 'League Spartan';}
